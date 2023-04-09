@@ -7,12 +7,12 @@ app = Flask ("__name__")
 def HOME():
     return render_template("HOME.html")
 
-@app.route("/quemsomos")
+@app.route("/quemsomos/")
 
 def quemsomos():
     return render_template("quemsomos.html")
 
-@app.route("/Contato")
+@app.route("/Contato/")
 
 def contato():
     return render_template("Contato.html")
