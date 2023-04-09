@@ -1,0 +1,30 @@
+    
+body {
+    background-image:url("fundo.png");
+    max-width: 80%;
+    margin: 0 auto;
+    }    
+h4 {color:black;
+        margin-right:220px;
+        text-align: center;
+    }
+    
+p {
+    width:90%;
+    }
+.link{  margin-top: -30px;
+        text-align:right;
+        width:90%;
+    }
+.logo{text-align:left;
+    }    
+.capa{margin-top: 55px;
+    }    
+#img-fundo2 {
+        background-image:url("fundo2.png")
+    }
+hr { 
+        margin-right:120px;
+        text-align: center;
+    }
+
