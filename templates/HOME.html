@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}"> 
-   
-</head>
-               
-<!--Menu -->   
-        <div class="logo"></div><img src="../static/img/logo.png" alt=logo></div>
-        <div class="link"><a href= "/">Home |
-        </a><a href="/quemsomos/">Quem somos | 
-        </a><a href="/Contato/">Contato</a>
-        </div>
+{% extends 'base.html' %}
+
+{% block conteudo %}
 
 <!--Corpo da página IMG -->
   
@@ -33,11 +18,4 @@
         <h4>Todos os direitos reservados</h4> 
    
     </div>
-    
-
-<body>
-
-</body>    
-
-    
-</html>
+{% endblock %}
