@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\katia\OneDrive\Desktop\desafio2-devweb\venv
+set VIRTUAL_ENV=C:\Users\Fatec\Desktop\devweb\Desafio2-Devweb\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
